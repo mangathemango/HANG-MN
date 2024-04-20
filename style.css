@@ -1,0 +1,200 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#letter-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.button {
+    border-radius: 10px;
+    width: 37px;
+    height: 55px;
+    margin: 2px;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+    align-self: flex-end;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transform: translate(0,-8px)
+}
+
+#row-1 {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#row-2 {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+#row-3 {
+    height: 65px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#hintbox {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    padding: 2px 20px;
+}
+
+#wordtype {
+    border: black 3px solid;
+    background-color: lime;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+
+#worddef {
+    border: black 3px solid;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#lives {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: black 3px solid;
+    transition: all 0.1s ease 0s;
+}
+
+#lives:hover {
+    background-color: white;
+    color: black;
+}
+
+#wordex {
+    border: black 3px solid;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.hint {
+    transition: all 0.1s ease 0s;
+}
+
+
+#wordtype:hover {
+    background-color: black;
+    color: white;
+}
+
+#worddef:hover {
+    background-color: black;
+    color: white;
+}
+
+#wordex:hover {
+    background-color: black;
+    color: white;
+}
+
+#outcometext {
+    font-size: 40px;
+}
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#title {
+    width: 300px;
+    text-align: center;
+    line-height: 95px;
+    font-size: 90px;
+    border: black 10px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#guessing_tile {
+    text-align: center;
+    width: 300px;
+    border: black 10px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 100px;
+    margin: 0px 0px 20px 0px;
+}
+
+#subtitle {
+    font-size: 30px;
+}
+
+#playbutton {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 50px;
+    border: black 5px solid;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: all 0.3s ease 0s;
+}
+
+#playbutton:hover {
+    background-color: black;
+    color: white;
+    transform: translate(0,-8px)
+}
+
+#newgame {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 30px;
+    border: black 5px solid;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: all 0.3s ease 0s;
+}
+
+#newgame:hover {
+    background-color: black;
+    color: white;
+    transform: translate(0,-8px)
+}
